@@ -13,6 +13,20 @@ Unlike traditional third-party cleaners that require subscriptions or run backgr
 
 ---
 
+## 📸 Screenshots & Interface Showcase
+
+| ⚡ Dashboard & Live Gauge | 🔨 Developer Debris Sweeper |
+| :---: | :---: |
+| ![NovaSweep Dashboard](docs/screenshots/dashboard.png) | ![Developer Debris](docs/screenshots/developer_debris.png) |
+| *1-Click Smart Scan, capacity gauges & category breakdown* | *Xcode DerivedData, npm, pip, cargo & gradle caches* |
+
+| 📦 Large & Old Files Explorer | 🛡️ Settings & Safety Rails |
+| :---: | :---: |
+| ![Large Files](docs/screenshots/large_files.png) | ![Settings & Safety](docs/screenshots/settings.png) |
+| *Size thresholds (50MB–1GB), type filters & Finder preview* | *Safe Trash-first deletion, dry run & folder exclusions* |
+
+---
+
 ## 🌟 Unique App Name: **NovaSweep**
 
 * **Nova**: Evoking cosmic energy and stellar brilliance—transforming cluttered, bogged-down storage into fresh, expansive space.
