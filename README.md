@@ -149,3 +149,21 @@ Or rebuild anytime from source:
 cd ~/Projects/NovaSweep
 ./build.sh
 ```
+
+---
+
+## ⚠️ Disclaimer
+
+NovaSweep is an open-source utility designed to help users identify and retrieve disk space occupied by transient caches, build artifacts, system logs, and unused files.
+
+* **Review Before Deletion**: While NovaSweep incorporates robust safety rails (`SystemGuard`, TCC privacy compliance, subpath-aware whitelisting, and a default Safe Trash mode), deleting files is an important operation. Please review selected items before executing a clean.
+* **Dry Run Mode**: If you are uncertain about what will be cleaned, enable **Dry Run Simulation Mode** in Settings or from the Scan menu to simulate the cleanup without modifying any files.
+* **Backups Recommended**: It is always recommended practice to maintain regular system backups using Apple Time Machine or an external drive.
+* **No Warranty**: This software is provided "as is", without warranty of any kind, express or implied. In no event shall the authors or copyright holders be liable for any claim, damages, or other liability arising from the use of this software.
+
+---
+
+## 📄 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+

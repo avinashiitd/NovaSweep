@@ -131,6 +131,25 @@ public struct SettingsView: View {
                     }
                 }
 
+                // Disclaimer & Safety Notice
+                VStack(alignment: .leading, spacing: 10) {
+                    HStack(spacing: 8) {
+                        Image(systemName: "exclamationmark.triangle.fill")
+                            .foregroundColor(.orange)
+                        Text("Important Disclaimer")
+                            .font(.headline)
+                    }
+
+                    Text("NovaSweep is designed to identify and safely reclaim non-productive disk usage (caches, logs, developer artifacts, and old downloads). By default, Safe Trash Mode is active so items can be restored from ~/.Trash. However, disk cleanup operations affect local files. Always review items before cleaning, use Dry Run Mode to simulate results, and maintain regular backups using Time Machine. NovaSweep is provided 'as is' without warranty of any kind.")
+                        .font(.caption)
+                        .foregroundColor(.secondary)
+                        .fixedSize(horizontal: false, vertical: true)
+                }
+                .padding()
+                .frame(maxWidth: .infinity, alignment: .leading)
+                .background(RoundedRectangle(cornerRadius: 10).fill(Color.orange.opacity(0.08)))
+                .overlay(RoundedRectangle(cornerRadius: 10).stroke(Color.orange.opacity(0.2), lineWidth: 1))
+
                 // About Card
                 VStack(alignment: .leading, spacing: 12) {
                     Text("About NovaSweep")
